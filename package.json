@@ -1,0 +1,28 @@
+{
+  "name": "heritage-atelier",
+  "version": "1.0.0",
+  "description": "Heritage Atelier - Custom Made. Culturally Yours.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js",
+    "seed": "node server/database/seed.js"
+  },
+  "keywords": [
+    "african-fashion",
+    "e-commerce",
+    "custom-tailoring"
+  ],
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^3.0.3",
+    "better-sqlite3": "^12.9.0",
+    "cookie-parser": "^1.4.7",
+    "cors": "^2.8.6",
+    "dotenv": "^17.4.2",
+    "express": "^5.2.1",
+    "jsonwebtoken": "^9.0.3",
+    "multer": "^2.1.1",
+    "uuid": "^13.0.0"
+  }
+}

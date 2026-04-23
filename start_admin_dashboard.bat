@@ -1,0 +1,3 @@
+@echo off
+echo Opening Heritage Atelier Admin Dashboard...
+start http://localhost:3000/dashboard

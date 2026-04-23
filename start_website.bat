@@ -1,0 +1,3 @@
+@echo off
+echo Opening Heritage Atelier Website...
+start http://localhost:3000/
